@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Missing from './Missing'
 
 const Products = () => {
   return (
     <div>
-      <p>Products</p>
-      <Link to="/" className='underline'>Go to Dashboard</Link>
+      <Missing/>
     </div>
   )
 }
