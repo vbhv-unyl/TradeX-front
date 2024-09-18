@@ -10,7 +10,7 @@ const Missing = () => {
         className="w-50 h-32"
       />
       <h1 className="mt-4 text-3xl font-bold text-gray-700">
-        Page under working
+        Page under working!!
       </h1>
     </div>
   );
