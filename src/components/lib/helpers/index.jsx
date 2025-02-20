@@ -6,9 +6,9 @@ export function getOrderStatus(status) {
 					{status.replaceAll('_', ' ').toLowerCase()}
 				</span>
 			)
-		case 'CONFIRMED':
+		case 'LOSS':
 			return (
-				<span className="capitalize py-1 px-2 rounded-md text-xs text-orange-600 bg-orange-100">
+				<span className="capitalize py-1 px-2 rounded-md text-xs text-red-600 bg-orange-100">
 					{status.replaceAll('_', ' ').toLowerCase()}
 				</span>
 			)
@@ -24,7 +24,7 @@ export function getOrderStatus(status) {
 					{status.replaceAll('_', ' ').toLowerCase()}
 				</span>
 			)
-		case 'DELIVERED':
+		case 'PROFIT':
 			return (
 				<span className="capitalize py-1 px-2 rounded-md text-xs text-green-600 bg-green-100">
 					{status.replaceAll('_', ' ').toLowerCase()}
